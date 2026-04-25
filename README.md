@@ -6,8 +6,6 @@
 >
 > **Status:** Frontend prototype. The UI surfaces the full integration workflow, but all data is currently held in component state — there is no backend, no live WARSIM connector, and no persistence layer yet.
 
-[![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-gahz6cev)
-
 ---
 
 ## Overview
@@ -58,8 +56,6 @@ A top-bar **Import WARSIM** action simulates ingest progress, and **Save Configu
 - **class-variance-authority**, **clsx**, **tailwind-merge** for the `Button` variant system and the `cn()` class merger
 - **date-fns** for date utilities
 - **ESLint** (typescript-eslint, react-hooks, react-refresh)
-
-The project was bootstrapped from the `bolt-vite-react-ts` template (see `.bolt/`).
 
 ## Getting Started
 
@@ -119,7 +115,6 @@ assault-dash/
 ├── vite.config.ts                 # Vite + React plugin config
 ├── eslint.config.js               # Flat ESLint config
 ├── tsconfig*.json                 # TypeScript project references
-├── .bolt/                         # Bolt template metadata
 └── src/
     ├── main.tsx                   # React root
     ├── App.tsx                    # ThemeProvider + Router + layout shell
